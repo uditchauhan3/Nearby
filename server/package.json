@@ -1,0 +1,36 @@
+{
+  "name": "jobify_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "npm install"
+  },
+  "keywords": [],
+  "author": "Jobify Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.36.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.21",
+    "otp-generator": "^4.0.1",
+    "stripe": "^12.4.0",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratyaksh009/Jobify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pratyaksh009/Jobify/issues"
+  },
+  "homepage": "https://github.com/pratyaksh009/Jobify#readme",
+  "description": ""
+}
